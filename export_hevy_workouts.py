@@ -26,7 +26,7 @@ driver.get('https://hevy.com/login?postLoginPath=%2F')
 WebDriverWait(driver, 5)\
     .until(EC.element_to_be_clickable((By.CSS_SELECTOR,
                                       'input')))\
-    .send_keys('edumontesinos19@gmail.com')
+    .send_keys('CORREO')
 
 # Introducimos contraseña
 WebDriverWait(driver, 5)\
